@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="myDIV" class="header">
+        <div id="mes">
+            <p>Input field is Empty.</p>
+        </div>
+        <h2 style="margin:5px">My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <button onclick="newElement()" class="addBtn">Add</button>
+        <button onclick="remove_all()" class="addBtn">Remove all</button>
+    </div>
+
+    <ul id="myUL">
+    </ul>
+</body>
+<script src="index.js"></script>
+
+</html>
